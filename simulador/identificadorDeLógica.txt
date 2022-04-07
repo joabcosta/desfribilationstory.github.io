@@ -1,0 +1,42 @@
+Lógicas:
+#1 : Função para captar eventos de click e configurar algo
+        - objetivo geral:
+                > ao clicar no botão de ligar, alterar estilo do elemento clicado e de outro elemento 
+                  
+
+        - técnica 1 utilizada - "ESCUTAR O HTML":
+                > uma função no js  "function ligar()" recebe um id-html
+                > o id-html é passado utilizando função nativa html onclick="";
+
+        - técnica 2 utilizada - "ONDE E O QUE MODIFICAR":
+                > dentro da função js para escutar o html:
+                     1. utilizar a função da biblioteca "document.N" para capturar a div pelo id
+                     2. configurar: alteração do botão de ligar
+                                altera - background
+                     3. configurar: alteração do botão led de status de carga
+                                o background da div x.style.color = '#000'
+
+        - técnica 3 utilizada - "LIMITAR ACIONAMENTO DA CARGA ELÉTRICA":
+                > A regra é: só permitir acionar a carga elétrica quando o dispositivo estiver ligado!.
+                    1. criar uma função no js "" para receber ativação dado por click no html
+                                esta função é ativada quando pressionar botão de CARGA
+                    2. na função criada, limitar com uso de if() as duas condições: 
+                                botão desligado e sistema energizado
+
+#2 : Função para a lógica do potenciometro
+        - objetivo geral:
+                > quando o usuário pressionar e mover para a direita:
+                        console.log (aumentar nível de carga)
+                > quando o usuário pressionar e mover para a esquerda:
+                        console.log (diminuir nível de carga)
+        - técnica 1 utilizada - "ESCUTAR O HTML"
+                   1. criar duas funções js para escutar o evento de mouse up e down
+                                estas funções são ativas somente se o aparelho estiver ligado!
+                   2. criar uma função js "startRotation()" com o método setInterval
+                   3. a função js "startRotation()" é chamada pela escultação mousedown
+                   4. o método clearInterval() para a função "startRotation()" pela escultação do mouseup
+                   5. a função "startRotation()" que usa o metodo "setInterval()" implementa outra função       
+                        a função rotate() que irá utilizar do canvas para saber se o movimento do mouse é:
+                                para a esquerda
+                                para a direita
+

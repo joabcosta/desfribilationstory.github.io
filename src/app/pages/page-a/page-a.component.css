@@ -1,0 +1,14 @@
+.page-a{
+    display: flex; 
+    height: 100vh; 
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-person:hover{
+    background-color: rgb(63, 78, 211);
+    box-shadow: 0 0 20px rgb(0, 110, 255),0 0 30px rgb(0, 153, 255);
+    color: white;
+    transition: 0.3s;
+}

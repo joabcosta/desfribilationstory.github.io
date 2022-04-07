@@ -1,0 +1,10 @@
+
+.footerCSS{
+    display: flex;
+    height: 10vh; 
+    position: absolute;
+    bottom: 0vh;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+}

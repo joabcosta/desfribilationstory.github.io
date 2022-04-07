@@ -1,0 +1,31 @@
+{
+    "equipamentos": 
+    [
+        {
+            "id": 1,
+            "img": "e-1",
+            "description": "Equipamento 1991"
+        },
+        {
+            "id": 2,
+            "img": "e-2",
+            "description": "Equipamento 1992"
+        },
+        {
+            "id": 3,
+            "img": "e-3",
+            "description": "Equipamento 1993"
+        },
+        {
+            "id": 4,
+            "img": "e-4",
+            "description": "Equipamento 1994"
+        },
+        {
+            "id": 5,
+            "img": "e-5",
+            "description": "Equipamento 1995"
+        }
+    ]
+
+}

@@ -1,0 +1,35 @@
+.page-history-div{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.page-history-title{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+}
+
+.page-history-img{
+    margin: 5px;
+    display: flex;
+    max-width: 50% ;
+    height: auto;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+.page-history-col{
+    display: flex;
+    align-items: center;
+}
+
+p,i,a,b{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+}

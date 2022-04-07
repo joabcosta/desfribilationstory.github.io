@@ -1,0 +1,5 @@
+.page-b-lista-css{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

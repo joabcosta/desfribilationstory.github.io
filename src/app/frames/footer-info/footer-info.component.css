@@ -1,0 +1,9 @@
+.footer-info-css{
+    display: flex;
+    height: 7vh; 
+    position: relative;
+    bottom: 0%;
+    justify-content: center;
+    text-align: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.178);
+}
