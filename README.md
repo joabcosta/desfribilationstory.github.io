@@ -10,11 +10,7 @@
 
 ### Instruções simulador:
 >- aplicar choque: tecla: a
->- Sequência de uso: 
-    -- ligar aparelho
-    -- carregar a palheta de aplicação com energia
-    -- regular ou não a energia
-    -- aplicar o choque - tecla a
+>- Sequência de uso: 1) ligar aparelho. 2) carregar a palheta de aplicação com energia. 3) regular ou não a energia. 4) aplicar o choque - tecla a
 
 ### Recursos utilizados:
 >- angular 
