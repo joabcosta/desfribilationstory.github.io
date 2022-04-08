@@ -8,7 +8,13 @@
 
 ![simula](https://user-images.githubusercontent.com/64921117/162226390-ddcb7dcf-1e6f-4856-82c4-06db65760beb.gif)
 
-
+### Instruções simulador:
+>- aplicar choque: tecla: a
+>- Sequência de uso: 
+    -- ligar aparelho
+    -- carregar a palheta de aplicação com energia
+    -- regular ou não a energia
+    -- aplicar o choque - tecla a
 
 ### Recursos utilizados:
 >- angular 
